@@ -1,6 +1,11 @@
 # T1 Agenthon Adapter
 
-Owns the `solve` contract, task/card translation, universal solver state machine, hard/soft validation policy and final deliverable staging.
+The first runnable slice implements the official `solve --task-dir ... --out ...` contract.
+It contains:
 
-No implementation has started.
+- a deterministic Black-Scholes handler for the official worked exemplar;
+- a bounded House-driven generate/execute/diagnose/repair loop for unfamiliar tasks;
+- child-process environment scrubbing so generated code cannot inherit House credentials;
+- offline fallback diagnostics when the House endpoint is unavailable.
 
+The deterministic exemplar path is an interface gate, not a general Track 1 score claim.

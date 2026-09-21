@@ -1,0 +1,9 @@
+.git
+.venv
+evidence
+sources
+tests
+tracks
+upstream/track2-forecasting-public
+**/__pycache__
+**/*.pyc

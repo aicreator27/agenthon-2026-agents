@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-22T02:30:00+08:00",
+  "status": "exemplar_verified_general_capability_pending",
+  "track": "T1",
+  "official_sources": {
+    "track1_coding_public_commit": "25975fc743d67019827652b9dfbdefc712229533",
+    "agenthon2026_public_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+  },
+  "container": {
+    "local_tag": "agenthon-t1:dev",
+    "local_image_id": "sha256:1a9d8b56911bed829bf0c59d2080068b1d05dee594d6257b9605217d56b88fe3",
+    "os": "linux",
+    "architecture": "amd64",
+    "interface_version": "2.0",
+    "size_bytes": 1072853851
+  },
+  "verification": {
+    "compile": "pass",
+    "contract_test": "1/1 pass",
+    "offline": true,
+    "official_checker": "14 passed; reward=1.0",
+    "pinned_qfbench2_smoke": "admissible=true; score=1.0; labels=[]",
+    "public_practice_regression": "pending House-accessible execution"
+  },
+  "exemplar_output_sha256": {
+    "results.parquet": "45952DA1163AF6B2714F0E58CBEC2F5191275225A8D7C429ADA8BEC791FC9610",
+    "reward.json": "EFBB4B8E46A90308CBF9453A834C2EE194FC1638821EF2C1C3D68B5EB23B5064",
+    "pytest_report.json": "C389E973BA7C7F1338B7A0B24698FB1DAB05ED6FAC7F6949529BB0C981B0227A"
+  },
+  "evidence": [
+    "evidence/runs/t1-smoke-20260922-022459/producer.log",
+    "evidence/runs/t1-smoke-20260922-022459/checker.log",
+    "evidence/runs/t1-smoke-20260922-022459/qfbench2-smoke.log"
+  ]
+}

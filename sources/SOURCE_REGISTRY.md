@@ -6,6 +6,6 @@
 | Agenthon Rules | Official policy | Binding | Awaiting pin | Highest competition authority. |
 | Agenthon Licensing Policy | Official policy | Binding | Awaiting pin | Governs data/software/artifact use. |
 | Agenthon Terms | Official policy | Binding | Awaiting pin | Governs participation. |
-| T1 track README/repository | Official technical | Binding for current track contract | Awaiting pin | Pin commit/release before implementation. |
+| T1 track README/repository | Official technical | Binding for current track contract | Commit `25975fc743d67019827652b9dfbdefc712229533` | Public repo has no tag at this commit; pinned main retrieved 2026-09-22. |
 | T2 track README/repository | Official technical | Binding for current track contract | Commit `4ee40699e81f4ab50056c8835e67583035695692` | Public repo has no release tags; pinned main commit retrieved 2026-09-21. |
 | Shared toolkit | Official technical | Binding for validation/package version | Tag `v2.4.3`, commit `03fc89cc666354e999768381bb923e60be5c1cee` | Contract set 1.1.0; Python 3.13+. |

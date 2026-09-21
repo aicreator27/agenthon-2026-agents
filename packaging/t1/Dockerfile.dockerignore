@@ -1,0 +1,11 @@
+.git
+.venv
+evidence
+sources
+tests
+upstream
+tracks/t2_agenthon
+packaging/t2
+packaging/t2-verifier
+**/__pycache__
+**/*.pyc
