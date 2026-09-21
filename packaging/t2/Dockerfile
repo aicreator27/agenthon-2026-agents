@@ -3,6 +3,8 @@ FROM python:3.13-slim-bookworm
 LABEL qfbench2.interface_version="2.0"
 LABEL qfbench2.track="forecasting"
 LABEL qfbench2.verb="forecast"
+LABEL org.opencontainers.image.source="https://github.com/aicreator27/agenthon-2026-agents"
+LABEL org.opencontainers.image.licenses="MIT"
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -24,4 +26,3 @@ RUN printf '#!/bin/sh\nexec python3 -m t2_agenthon.cli "$@"\n' > /usr/local/bin/
 USER runner
 
 CMD ["forecast", "--help"]
-
