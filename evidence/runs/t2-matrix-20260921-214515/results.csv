@@ -1,0 +1,7 @@
+unit,family,target_type,target_frequency,producer_exit,scorer_exit,admissible,g0,g1,g2,g3,seconds
+t2-EXAMPLE-ust-curve-1m,T2-F3,level,daily,0,0,True,pass,pass,pass,pass,2.8
+t2-F1-ai-mom-2024,T2-F1,log_return,daily,0,0,True,pass,pass,pass,pass,2.732
+t2-F1-cpi-glidepath-2023,T2-F1,level,monthly,0,0,True,pass,pass,pass,pass,2.657
+t2-F2-abenomics-2012,T2-F2,level,daily,0,0,True,pass,pass,pass,pass,2.497
+t2-F3-bear-flattener-2022,T2-F3,level,daily,0,0,True,pass,pass,pass,pass,2.518
+t2-F4-aud-gfc-2008,T2-F4,level,daily,0,0,True,pass,pass,pass,pass,3.368

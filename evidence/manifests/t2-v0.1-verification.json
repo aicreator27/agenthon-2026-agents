@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-21T21:55:00+08:00",
+  "status": "host_and_container_verified_registry_pending",
+  "implementation": {
+    "track": "T2",
+    "entrypoint": "forecast",
+    "reference_mode": "numeric_only",
+    "default_draws": 1000,
+    "deterministic_numeric_core": true
+  },
+  "official_sources": {
+    "track2_forecasting_public_commit": "4ee40699e81f4ab50056c8835e67583035695692",
+    "agenthon2026_public_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+  },
+  "verification": {
+    "compile_exit_code": 0,
+    "contract_tests": "1/1 pass",
+    "official_exemplar": {
+      "admissible": true,
+      "g0": "pass",
+      "g1": "pass",
+      "g2": "pass",
+      "g3": "pass",
+      "draws": 1000
+    },
+    "representative_public_matrix": "6/6 admissible",
+    "docker_linux_amd64": "pass",
+    "container_contract_test": "1/1 pass",
+    "offline_official_smoke": "admissible; no failure labels",
+    "codabench": "pending_image_publish_and_team_credentials"
+  },
+  "container": {
+    "local_tag": "agenthon-t2:dev",
+    "local_image_id": "sha256:7058e22e92bbc3d71f57a76d8ca1df3cd37a923853cc9bb0525dcae7d4d30d0b",
+    "os": "linux",
+    "architecture": "amd64",
+    "interface_version": "2.0",
+    "size_bytes": 558140276,
+    "smoke_run": "t2-smoke-20260921-232528"
+  },
+  "exemplar_output_sha256": {
+    "forecast.parquet": "290677F83EC0439021D9E9E4A78AA6877B6F97EFB038A707EFE26CDF1F21A5B9",
+    "forecast_meta.json": "E8A360FC06B2BE9DF6473678DBE325F2C7932BC6D4B9800AE877D7B34D2B5DFB",
+    "forecast_rationale.md": "1289523F9AB5DEF847C9346C76F0BD12F4484C73F0C9C2EFC24946937091B3E7"
+  },
+  "evidence": [
+    "evidence/reports/test-t2-local.log",
+    "evidence/runs/t2-exemplar-local-20260921-213942/official-scorer.log",
+    "evidence/runs/t2-matrix-20260921-214515/summary.json",
+    "evidence/runs/t2-matrix-20260921-214515/results.csv",
+    "evidence/runs/t2-smoke-20260921-232528/smoke.log"
+  ]
+}

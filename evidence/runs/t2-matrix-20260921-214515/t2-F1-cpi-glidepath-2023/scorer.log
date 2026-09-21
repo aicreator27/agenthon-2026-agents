@@ -1,0 +1,12 @@
+{
+  "card_id": "t2-F1-cpi-glidepath-2023",
+  "admissible": true,
+  "gates": {
+    "g0_integrity": "pass",
+    "g1_schema": "pass",
+    "g2_cutoff_resource": "pass",
+    "g3_domain_semantics": "pass"
+  },
+  "scored": false,
+  "note": "no --realized supplied: gates only, no score"
+}

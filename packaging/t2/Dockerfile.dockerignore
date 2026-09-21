@@ -1,0 +1,12 @@
+**
+!core/
+!core/src/
+!core/src/**
+!tracks/
+!tracks/t2_agenthon/
+!tracks/t2_agenthon/src/
+!tracks/t2_agenthon/src/**
+!packaging/
+!packaging/t2/
+!packaging/t2/requirements.lock
+

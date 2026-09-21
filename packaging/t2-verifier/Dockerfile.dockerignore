@@ -1,0 +1,8 @@
+**
+!upstream/
+!upstream/Agenthon2026-public/
+!upstream/Agenthon2026-public/common/
+!upstream/Agenthon2026-public/common/**
+!upstream/track2-forecasting-public/
+!upstream/track2-forecasting-public/**
+

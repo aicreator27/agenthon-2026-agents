@@ -1,0 +1,12 @@
+{
+  "card_id": "t2-F4-aud-gfc-2008",
+  "admissible": true,
+  "gates": {
+    "g0_integrity": "pass",
+    "g1_schema": "pass",
+    "g2_cutoff_resource": "pass",
+    "g3_domain_semantics": "pass"
+  },
+  "scored": false,
+  "note": "no --realized supplied: gates only, no score"
+}

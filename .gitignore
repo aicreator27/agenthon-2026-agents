@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+
+evidence/runs/**/output/
+evidence/runs/**/canonical/
+evidence/runs/**/*.tar
+evidence/runs/**/verifier-build.log
+evidence/runs/t2-public-full-*/
+evidence/runs/t2-smoke-20260921-232132/
+evidence/runs/t2-smoke-20260921-232325/
+evidence/reports/*.log
+packaging/t2/submission.json
+packaging/t2/submission.zip
+packaging/t2/team-claim.json
+
+# Upstream repositories are reproducible from SOURCE_REGISTRY pins.
+upstream/Agenthon2026-public/
+upstream/track2-forecasting-public/
