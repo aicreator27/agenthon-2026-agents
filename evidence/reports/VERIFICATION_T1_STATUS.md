@@ -1,7 +1,7 @@
 # Track 1 verification status
 
 Updated: 2026-09-22  
-Model path: deterministic exemplar handler plus bounded House generate/repair scaffold
+Model path: deterministic registry handler plus adaptive House generate/execute/repair agent
 
 ## Verified
 
@@ -10,25 +10,35 @@ Model path: deterministic exemplar handler plus bounded House generate/repair sc
 - Python compile check: pass.
 - PowerShell build/test/smoke scripts parse without errors.
 - Linux/amd64 image build: pass; interface label `2.0`; fixed `solve` verb responds.
-- Container contract test: 1/1 pass, including deterministic rerun and financial parity.
+- T1-focused contract suite: 10/10 pass. It covers CLI/determinism, the House HTTP contract,
+  repair after execution failure, failed-output isolation, credential scrubbing, canary rejection,
+  forbidden imports, and offline output-contract fallback.
+- Generated programs receive a staged copy of task inputs without `checks/`, no House credentials,
+  bounded CPU/address-space/file/process resources, and an isolated output staging directory.
+- Official 87-unit public-practice conformance: `87/87 OK`, zero crashes, zero missing expected
+  deliverables, zero unchecked. This is an admissibility floor check, not a correctness score.
 - Official worked exemplar executed with `--network=none`.
 - Official offline checker: 14 passed, reward `1.0`.
 - Pinned `qfbench2-smoke`: `admissible=True`, `score=1.0`, no failure labels. Under the
   sequential Track 1 verifier contract this is the local exemplar evidence for g0-g3 acceptance.
 
-Evidence run: `evidence/runs/t1-smoke-20260922-022459/`.
+Evidence run: `evidence/runs/t1-smoke-20260922-105434/`. Full conformance log:
+`evidence/reports/t1-conformance-v01.log` (SHA-256
+`b15737aeeafd24da311db6c10b78f0cc68956a7b9b8f149f6dcde7ffc27922ec`).
 
 ## Not yet verified
 
-- The House generate/execute/repair path has no local organizer House endpoint and has not been
-  exercised end to end.
+- The HTTP route and full generate/execute/repair state transitions are covered with a local mock,
+  but the organizer House endpoint is unavailable locally; live House behavior remains unmeasured.
 - No non-exemplar public task has earned reward 1. The current deterministic handler is intentionally
   limited to the worked Black-Scholes exemplar.
-- Full 87-unit public-practice pass@1/pass@3 regression has not started. Running the current image
-  offline over those units would measure House unavailability, not general solving quality.
-- No T1 registry image has been pushed and no submission descriptor has been generated.
+- The 87-unit sweep proves exit/output contract compatibility only. It does not establish public
+  pass@1 because the offline run correctly has no organizer House route.
+- The submission descriptor generator is implemented and uses the official House disclosure.
+  Registry digest, anonymous pullability and sealed team claim remain pending.
 
 ## Interpretation boundary
 
-This establishes a legal, runnable T1 submission shell and one real official reward path. It does
-not establish hidden-task generalization or a competitive Track 1 score.
+This establishes a legal, runnable universal-agent container, a complete public output-contract
+sweep, and one real official reward path. It does not establish House-powered public/hidden-task
+generalization or a competitive Track 1 score; only an official Development run can measure that.

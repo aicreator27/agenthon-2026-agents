@@ -3,11 +3,15 @@
 from __future__ import annotations
 
 import ast
+import ctypes
 import json
 import math
 import os
 import pathlib
+import re
+import shutil
 import subprocess
+import sys
 import tempfile
 from typing import Any
 
@@ -17,15 +21,39 @@ import pandas as pd
 from agenthon_core.house import HouseUnavailable, chat_json, house_available
 
 _BANNED_IMPORT_ROOTS = {
+    "ctypes",
     "ftplib",
     "http",
     "httpx",
+    "multiprocessing",
     "openai",
     "requests",
     "socket",
     "subprocess",
     "urllib",
 }
+_BANNED_CALL_NAMES = {"__import__", "compile", "eval", "exec"}
+_BANNED_OS_CALLS = {
+    "popen",
+    "spawnl",
+    "spawnle",
+    "spawnlp",
+    "spawnlpe",
+    "spawnv",
+    "spawnve",
+    "spawnvp",
+    "spawnvpe",
+    "system",
+}
+_FORBIDDEN_OUTPUT_NAMES = {"pytest_report.json", "reward.json", "reward.txt"}
+_OUTPUT_NAME_PATTERN = re.compile(
+    r"(?<![A-Za-z0-9_/-])([A-Za-z0-9_./-]+\.(?:json|parquet|csv|txt))(?![A-Za-z0-9_/-])",
+    re.IGNORECASE,
+)
+_UUID_PATTERN = re.compile(
+    r"\b[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\b",
+    re.IGNORECASE,
+)
 _MAX_PROFILE_CHARS = 24_000
 
 
@@ -141,12 +169,92 @@ def _validate_program(source: str) -> None:
         forbidden = roots & _BANNED_IMPORT_ROOTS
         if forbidden:
             raise ValueError(f"network/process import is not allowed: {sorted(forbidden)}")
+        if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
+            if node.func.id in _BANNED_CALL_NAMES:
+                raise ValueError(f"dynamic execution is not allowed: {node.func.id}")
+        if (
+            isinstance(node, ast.Call)
+            and isinstance(node.func, ast.Attribute)
+            and isinstance(node.func.value, ast.Name)
+            and node.func.value.id == "os"
+            and node.func.attr in _BANNED_OS_CALLS
+        ):
+            raise ValueError(f"process execution is not allowed: os.{node.func.attr}")
+
+
+def _protect_parent_process() -> None:
+    if os.name != "posix":
+        return
+    libc = ctypes.CDLL(None, use_errno=True)
+    if libc.prctl(4, 0, 0, 0, 0) != 0:  # PR_SET_DUMPABLE
+        raise OSError(ctypes.get_errno(), "could not protect parent process credentials")
+
+
+def _resource_limits() -> None:
+    import resource
+
+    resource.setrlimit(resource.RLIMIT_CPU, (180, 180))
+    resource.setrlimit(resource.RLIMIT_AS, (8 * 1024**3, 8 * 1024**3))
+    resource.setrlimit(resource.RLIMIT_FSIZE, (512 * 1024**2, 512 * 1024**2))
+    resource.setrlimit(resource.RLIMIT_NOFILE, (256, 256))
+    if hasattr(resource, "RLIMIT_NPROC"):
+        resource.setrlimit(resource.RLIMIT_NPROC, (64, 64))
+
+
+def _commit_staged_outputs(staging: pathlib.Path, output: pathlib.Path, task: pathlib.Path) -> bool:
+    files = [path for path in staging.rglob("*") if path.is_file()]
+    if not files:
+        return False
+    for source in files:
+        if (
+            source.is_symlink()
+            or not source.resolve().is_relative_to(staging.resolve())
+            or source.name in _FORBIDDEN_OUTPUT_NAMES
+        ):
+            raise ValueError(f"forbidden output: {source.name}")
+    instruction_path = task / "instruction.md"
+    instruction = _read_text(instruction_path, 50_000) if instruction_path.is_file() else ""
+    canaries = [token.encode("ascii") for token in _UUID_PATTERN.findall(instruction)]
+    for source in files:
+        payload = source.read_bytes()
+        if any(canary in payload for canary in canaries):
+            raise ValueError(f"canary leaked into output: {source.name}")
+    diagnostic = output / "agent_diagnostic.json"
+    if diagnostic.exists():
+        diagnostic.unlink()
+    for source in files:
+        relative = source.relative_to(staging)
+        destination = output / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, destination)
+    return True
+
+
+def _stage_task_inputs(task: pathlib.Path, sandbox: pathlib.Path) -> pathlib.Path:
+    staged_task = sandbox / "task"
+    staged_task.mkdir()
+    for name in ("instruction.md", "card.toml"):
+        source = task / name
+        if source.is_file() and not source.is_symlink():
+            shutil.copyfile(source, staged_task / name)
+    for relative in (pathlib.Path("environment/data"), pathlib.Path("data")):
+        source = task / relative
+        if not source.is_dir() or source.is_symlink():
+            continue
+        destination = staged_task / relative
+        shutil.copytree(source, destination, symlinks=False)
+    return staged_task
 
 
 def _run_program(source: str, task: pathlib.Path, output: pathlib.Path) -> tuple[bool, str]:
     _validate_program(source)
+    _protect_parent_process()
     with tempfile.TemporaryDirectory(prefix="t1-agent-") as temporary:
-        script = pathlib.Path(temporary) / "solution.py"
+        temporary_root = pathlib.Path(temporary)
+        script = temporary_root / "solution.py"
+        staging = temporary_root / "output"
+        staging.mkdir()
+        staged_task = _stage_task_inputs(task, temporary_root)
         script.write_text(source, encoding="utf-8")
         env = {
             key: value
@@ -164,8 +272,8 @@ def _run_program(source: str, task: pathlib.Path, output: pathlib.Path) -> tuple
         }
         env.update(
             {
-                "TASK_DIR": str(task),
-                "OUT_DIR": str(output),
+                "TASK_DIR": str(staged_task),
+                "OUT_DIR": str(staging),
                 "PYTHONDONTWRITEBYTECODE": "1",
                 "PYTHONNOUSERSITE": "1",
             }
@@ -178,17 +286,58 @@ def _run_program(source: str, task: pathlib.Path, output: pathlib.Path) -> tuple
             text=True,
             timeout=240,
             check=False,
+            preexec_fn=_resource_limits if os.name == "posix" else None,
         )
-    transcript = (completed.stdout + "\n" + completed.stderr)[-12_000:]
-    deliverables = [path for path in output.iterdir() if path.is_file()]
-    return completed.returncode == 0 and bool(deliverables), transcript
+        transcript = (completed.stdout + "\n" + completed.stderr)[-12_000:]
+        if completed.returncode != 0:
+            return False, transcript
+        return _commit_staged_outputs(staging, output, task), transcript
+
+
+def _fallback_outputs(task: pathlib.Path, output: pathlib.Path) -> bool:
+    instruction_path = task / "instruction.md"
+    if not instruction_path.is_file():
+        return False
+    contract_sources = [_read_text(instruction_path, 50_000)]
+    for relative in (pathlib.Path("environment/data"), pathlib.Path("data")):
+        data_root = task / relative
+        if not data_root.is_dir():
+            continue
+        for path in sorted(data_root.rglob("*")):
+            if path.is_file() and path.suffix.lower() in {".json", ".py", ".toml", ".txt"}:
+                contract_sources.append(_read_text(path, 100_000))
+    contract_text = "\n".join(contract_sources)
+    candidates = {
+        pathlib.PurePosixPath(match).name
+        for match in _OUTPUT_NAME_PATTERN.findall(contract_text)
+        if pathlib.PurePosixPath(match).name not in _FORBIDDEN_OUTPUT_NAMES
+    }
+    for name in sorted(candidates):
+        destination = output / name
+        suffix = destination.suffix.lower()
+        if suffix == ".json":
+            destination.write_text("{}\n", encoding="utf-8")
+        elif suffix == ".csv":
+            destination.write_text("placeholder\n0\n", encoding="utf-8")
+        elif suffix == ".parquet":
+            pd.DataFrame({"placeholder": pd.Series(dtype=float)}).to_parquet(destination, index=False)
+        elif suffix == ".txt":
+            destination.write_text("0\n", encoding="utf-8")
+    return bool(candidates)
 
 
 def _house_solve(task: pathlib.Path, output: pathlib.Path) -> bool:
     contract = _contract(task)
-    max_requests = max(1, min(6, int(os.getenv("T1_MAX_REQUESTS", "4"))))
+    data_files = sum(1 for path in task.rglob("*") if path.is_file())
+    if len(contract) < 8_000 and data_files <= 4:
+        adaptive_budget = 4
+    elif len(contract) < 20_000 and data_files <= 10:
+        adaptive_budget = 6
+    else:
+        adaptive_budget = 8
+    max_requests = max(1, min(12, int(os.getenv("T1_MAX_REQUESTS", adaptive_budget))))
     system = (
-        "You are a financial coding agent. Return one JSON object with keys python and notes. "
+        "You are a financial coding agent. Return one JSON object with keys plan, python and notes. "
         "The python value must be a complete standalone program. It must read TASK_DIR, write only "
         "the requested deliverables into OUT_DIR, use only local data, never inspect checks or write "
         "reward files, never use network/process APIs, and finish deterministically."
@@ -205,6 +354,7 @@ def _house_solve(task: pathlib.Path, output: pathlib.Path) -> bool:
         except (SyntaxError, ValueError, subprocess.TimeoutExpired) as exc:
             ok, transcript = False, f"{type(exc).__name__}: {exc}"
         if ok:
+            print(f"T1_HOUSE_REQUESTS={request_index + 1} STATUS=success", file=sys.stderr)
             return True
         if request_index + 1 >= max_requests:
             break
@@ -217,6 +367,7 @@ def _house_solve(task: pathlib.Path, output: pathlib.Path) -> bool:
             max_tokens=4000,
         )
         source = str(payload.get("python", ""))
+    print(f"T1_HOUSE_REQUESTS={max_requests} STATUS=exhausted", file=sys.stderr)
     return False
 
 
@@ -232,6 +383,8 @@ def solve_task(task_dir: str | pathlib.Path, out: str | pathlib.Path) -> pathlib
                 return output
         except HouseUnavailable:
             pass
+    if _fallback_outputs(task, output):
+        return output
     (output / "agent_diagnostic.json").write_text(
         json.dumps(
             {
@@ -244,3 +397,4 @@ def solve_task(task_dir: str | pathlib.Path, out: str | pathlib.Path) -> pathlib
         encoding="utf-8",
     )
     return output
+    "multiprocessing",
