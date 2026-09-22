@@ -1,0 +1,14 @@
+{
+  "baseline":   {},
+  "t_off":      {"bootstrap_weight": 1.0},
+  "boot_off":   {"bootstrap_weight": 0.0},
+  "t_df30":     {"degrees_freedom": 30.0},
+  "hist300":    {"history_window": 300},
+  "hist750":    {"history_window": 750},
+  "hist1500":   {"history_window": 1500},
+  "block1":     {"block_length": 1},
+  "block21":    {"block_length": 21},
+  "cov_recent": {"recent_weight": 1.0, "full_weight": 0.0},
+  "cov_full":   {"recent_weight": 0.0, "full_weight": 1.0},
+  "noshrink":   {"blend_weight": 1.0, "diagonal_shrinkage": 0.0}
+}

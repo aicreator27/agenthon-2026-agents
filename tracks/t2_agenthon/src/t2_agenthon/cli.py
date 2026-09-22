@@ -162,7 +162,7 @@ def main(argv: list[str] | None = None) -> int:
             "target": targets.get("target_type", "level"),
             "rationale": {
                 "file": RATIONALE_NAME,
-                "method": result.stats["method"] + "; text-disabled-v0.1",
+                "method": result.stats["method"] + "; text-disabled-v0.2-calibrated",
             },
         }
         (output_dir / "forecast_meta.json").write_text(

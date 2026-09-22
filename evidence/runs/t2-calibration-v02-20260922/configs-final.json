@@ -1,0 +1,4 @@
+{
+  "baseline": {},
+  "tuned":    {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80}
+}

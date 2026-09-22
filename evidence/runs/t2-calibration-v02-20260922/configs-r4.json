@@ -1,0 +1,7 @@
+{
+  "baseline":       {},
+  "w300_b21":       {"history_window": 300, "block_length": 21},
+  "w300_b31":       {"history_window": 300, "block_length": 31},
+  "w300_b21_bw80":  {"history_window": 300, "block_length": 21, "bootstrap_weight": 0.80},
+  "w300_b31_bw80":  {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80}
+}

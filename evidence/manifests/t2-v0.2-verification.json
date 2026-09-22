@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-22T02:05:00+08:00",
+  "status": "submission_zip_validated_ready_to_upload",
+  "implementation": {
+    "track": "T2",
+    "entrypoint": "forecast",
+    "reference_mode": "numeric_only",
+    "model_version": "text-disabled-v0.2-calibrated",
+    "default_draws": 1000,
+    "deterministic_numeric_core": true,
+    "calibrated_defaults": {
+      "history_window": 300,
+      "block_length": 31,
+      "bootstrap_weight": 0.8,
+      "drift_shrink": 0.0,
+      "dispersion_scale": 1.0,
+      "variance_ratio": false
+    }
+  },
+  "official_sources": {
+    "track2_forecasting_public_commit": "4ee40699e81f4ab50056c8835e67583035695692",
+    "agenthon2026_public_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+  },
+  "verification": {
+    "contract_tests": "1/1 pass",
+    "official_exemplar": {
+      "admissible": true,
+      "g0": "pass",
+      "g1": "pass",
+      "g2": "pass",
+      "g3": "pass"
+    },
+    "public_admissibility_matrix": "36/36 admissible",
+    "docker_linux_amd64": "pass",
+    "offline_official_smoke": "admissible; no failure labels",
+    "codabench": "pending_public_visibility_and_team_credentials",
+    "anonymous_pullability": {
+      "checked_at": "2026-09-22T02:30:00+08:00",
+      "method": "RUNTIME-ENVIRONMENT.md anonymous GHCR token, then manifest and every blob by digest",
+      "anonymous_token": "issued",
+      "manifest_by_digest_http": 200,
+      "blobs_checked": 11,
+      "blobs_http": "206 on config and all 10 layers (credential-free byte-range)",
+      "result": "pass"
+    },
+    "descriptor_pack_dry_run": {
+      "result": "pass",
+      "note": "submission.zip produced with submission.json (12 keys) + team-claim.json (schema 2.0, proof present, no team_key field), using a throwaway key that was deleted. No real Team Key was used, stored or written."
+    },
+    "registry_digest_rehearsal": {
+      "method": "pulled by digest with an isolated empty DOCKER_CONFIG (no credentials), then ran the offline exemplar and the pinned official verifier against that reference",
+      "pull": "credential-free, resolved to the expected digest",
+      "platform": "linux/amd64, interface label 2.0, licenses MIT",
+      "verdict": "admissible; no failure labels",
+      "output_hashes_match_verified_build": true,
+      "run": "t2-smoke-20260922-102643"
+    }
+  },
+  "predictive_power": {
+    "denominator": "local reimplementation of official M0 (M0-BASELINE.md section 3)",
+    "harness_calibration": {
+      "arm": "official reference CLI",
+      "measured_mean": 1.2173,
+      "measured_median": 1.0567,
+      "documented_mean": 1.29,
+      "documented_median": 1.05
+    },
+    "locked_holdout": {
+      "units": 1168,
+      "asof_dates": 239,
+      "period": "2017-12-29 onward",
+      "mean_score_vs_m0": 0.8249,
+      "median_score_vs_m0": 0.9109,
+      "fraction_beating_m0": 0.72,
+      "block_bootstrap_p_one_sided": 5e-05,
+      "hac_t": -13.431,
+      "bootstrap_95_width": 0.0499
+    },
+    "v01_on_same_holdout": {
+      "mean_score_vs_m0": 0.954,
+      "block_bootstrap_p_one_sided": 0.05375
+    },
+    "scope": "the locked-holdout result applies to daily LEVEL panels only; see transfer_populations",
+    "transfer_populations": {
+      "note": "never used for any tuning decision",
+      "log_return": {
+        "units": 1376,
+        "v01": 1.1607,
+        "v02": 1.036,
+        "v02_beats_m0": 0.533
+      },
+      "monthly": {
+        "units": 281,
+        "v01": 1.3197,
+        "v02": 1.1997,
+        "v02_beats_m0": 0.42
+      },
+      "combined": {
+        "units": 1657,
+        "v01": 1.1877,
+        "v02": 1.0638,
+        "one_sided_p": 1.0
+      },
+      "conclusion": "the calibration generalizes (v0.2 beats v0.1 by 0.124 paired) but the predictive power does not: both versions are worse than M0 here",
+      "roster_mix_expectation": 0.87
+    }
+  },
+  "container": {
+    "registry_reference": "ghcr.io/aicreator27/agenthon-t2:v0.2.0",
+    "digest": "sha256:f464a19e510c9e53e03b01d9acd95058597de1e5972e832f52bd90461ad3db0d",
+    "media_type": "application/vnd.oci.image.manifest.v1+json",
+    "is_index": false,
+    "base_image_pinned": "python:3.13-slim-bookworm@sha256:2325bb286ec344af3e5898cc224b5844e2707ac6e26b1632516fd3edc84a5e26",
+    "attestations": "disabled",
+    "os": "linux",
+    "architecture": "amd64",
+    "interface_version": "2.0",
+    "smoke_run": "t2-smoke-20260922-020117"
+  },
+  "exemplar_output_sha256": {
+    "forecast.parquet": "FA0536E59D2C58097957035D76F94089CAEEE5C29A0155C1A158C350EE057185",
+    "forecast_meta.json": "DC762F91E0D76789353ADDE0E0D94B70679B4557359A487D012561AA6F4121D2",
+    "forecast_rationale.md": "CA42785929AB0975D73970C3529F58283D8B2193DC4994487317BA3CD2A41126"
+  },
+  "evidence": [
+    "evidence/runs/t2-smoke-20260922-020117/smoke.log",
+    "evidence/runs/t2-calibration-v02-20260922/scores-holdout-tuned.csv",
+    "evidence/runs/t2-calibration-v02-20260922/admissibility-36-summary.json",
+    "docs/decisions/ADR-0003-predictive-power-measurement.md",
+    "docs/decisions/ADR-0004-numeric-ensemble-v02-calibration.md"
+  ],
+  "submission": {
+    "zip": "packaging/t2/submission.zip (gitignored; not committed)",
+    "team_id": "team-d97f76905fee06ab78eb89d72e5e19f4",
+    "site_team_id": 497,
+    "competition_id": "agenthon2026-forecasting-dev",
+    "pre_upload_checks": "14/14 pass",
+    "checks": [
+      "exactly submission.json + team-claim.json at the zip root",
+      "descriptor carries the 12 C5 keys and parses via SubmissionDescriptor.from_mapping",
+      "descriptor_digest reseals to itself (correctly sealed)",
+      "image digest equals the pushed and anonymously verified digest",
+      "team_id matches team-[0-9a-f]{32}",
+      "team-claim schema_version 2.0, 4 keys, proof is 64 hex",
+      "claim descriptor_sha256 equals sha256 of the exact submission.json bytes in the zip",
+      "no team_key field anywhere in the archive"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "baseline":       {},
+  "w300":           {"history_window": 300},
+  "w200":           {"history_window": 200},
+  "w450":           {"history_window": 450},
+  "w300_b21":       {"history_window": 300, "block_length": 21},
+  "w300_toff":      {"history_window": 300, "bootstrap_weight": 1.0},
+  "w300_b21_toff":  {"history_window": 300, "block_length": 21, "bootstrap_weight": 1.0},
+  "w300_b42_toff":  {"history_window": 300, "block_length": 42, "bootstrap_weight": 1.0},
+  "ewma60":         {"vol_halflife": 60},
+  "ewma90":         {"vol_halflife": 90},
+  "ewma30_w750":    {"history_window": 750, "vol_halflife": 30},
+  "w300_d500":      {"history_window": 300, "draws": 500}
+}

@@ -10,6 +10,7 @@ New-Item -ItemType Directory -Path $LogDir -Force | Out-Null
 
 $ErrorActionPreference = "Continue"
 docker buildx build --platform linux/amd64 --load `
+    --provenance=false --sbom=false `
     --file (Join-Path $ProjectRoot "packaging\t2\Dockerfile") `
     --tag $Image $ProjectRoot *> $LogPath
 $Code = $LASTEXITCODE

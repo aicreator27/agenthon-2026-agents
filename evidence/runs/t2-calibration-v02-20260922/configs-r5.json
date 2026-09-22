@@ -1,0 +1,12 @@
+{
+  "baseline":        {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80},
+  "vr_s000":         {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.0},
+  "vr_s025":         {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.25},
+  "vr_s050":         {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.50},
+  "vr_s075":         {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.75},
+  "vr_s100":         {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 1.0},
+  "vr_s050_w750":    {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.50, "variance_ratio_window": 750},
+  "vr_s050_w1500":   {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 0.50, "variance_ratio_window": 1500},
+  "vr_s100_tight":   {"history_window": 300, "block_length": 31, "bootstrap_weight": 0.80, "variance_ratio": true, "variance_ratio_shrink": 1.0, "variance_ratio_floor": 0.7, "variance_ratio_cap": 1.4},
+  "v01_original":    {}
+}

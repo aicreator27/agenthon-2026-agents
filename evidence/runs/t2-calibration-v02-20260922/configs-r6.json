@@ -1,0 +1,57 @@
+{
+ "baseline": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8
+ },
+ "v01_original": {},
+ "disp90": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "dispersion_scale": 0.9
+ },
+ "disp95": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "dispersion_scale": 0.95
+ },
+ "disp105": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "dispersion_scale": 1.05
+ },
+ "disp110": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "dispersion_scale": 1.1
+ },
+ "drift-25": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "drift_shrink": -0.25
+ },
+ "drift25": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "drift_shrink": 0.25
+ },
+ "drift50": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "drift_shrink": 0.5
+ },
+ "disp95_drift25": {
+  "history_window": 300,
+  "block_length": 31,
+  "bootstrap_weight": 0.8,
+  "dispersion_scale": 0.95,
+  "drift_shrink": 0.25
+ }
+}

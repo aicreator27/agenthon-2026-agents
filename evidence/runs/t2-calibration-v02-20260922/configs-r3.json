@@ -1,0 +1,14 @@
+{
+  "baseline":      {},
+  "w300_b21":      {"history_window": 300, "block_length": 21},
+  "w250_b21":      {"history_window": 250, "block_length": 21},
+  "w350_b21":      {"history_window": 350, "block_length": 21},
+  "w400_b21":      {"history_window": 400, "block_length": 21},
+  "w300_b13":      {"history_window": 300, "block_length": 13},
+  "w300_b31":      {"history_window": 300, "block_length": 31},
+  "w300_b21_bw80": {"history_window": 300, "block_length": 21, "bootstrap_weight": 0.80},
+  "w300_b21_bw90": {"history_window": 300, "block_length": 21, "bootstrap_weight": 0.90},
+  "w300_b21_df12": {"history_window": 300, "block_length": 21, "degrees_freedom": 12.0},
+  "w300_b21_rec":  {"history_window": 300, "block_length": 21, "recent_weight": 1.0, "full_weight": 0.0},
+  "w300_b21_nosh": {"history_window": 300, "block_length": 21, "blend_weight": 1.0, "diagonal_shrinkage": 0.0}
+}
