@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "track": "coding",
+  "candidate_version": "t1-v0.2",
+  "verified_at": "2026-09-22T11:08:00+08:00",
+  "source_commit": "4ab5aad5371b43241d47bab48b723d3b6f7c62e9",
+  "official_pins": {
+    "toolkit": "03fc89cc666354e999768381bb923e60be5c1cee",
+    "track1": "25975fc743d67019827652b9dfbdefc712229533"
+  },
+  "image": {
+    "reference": "ghcr.io/aicreator27/agenthon-t1@sha256:d9d74a4070117654603166244546bb7df026f0aa41066918b684e27d7f22caff",
+    "digest": "sha256:d9d74a4070117654603166244546bb7df026f0aa41066918b684e27d7f22caff",
+    "media_type": "application/vnd.oci.image.manifest.v1+json",
+    "platform": "linux/amd64",
+    "interface_version": "2.0",
+    "anonymous_digest_inspect": "pass"
+  },
+  "github_actions": {
+    "run_id": 35681724143,
+    "conclusion": "success",
+    "url": "https://github.com/aicreator27/agenthon-2026-agents/actions/runs/35681724143"
+  },
+  "gates": {
+    "focused_contract_tests": {"passed": 10, "failed": 0},
+    "public_conformance": {"units": 87, "ok": 87, "crashed": 0, "missing": 0, "unchecked": 0},
+    "official_exemplar": {"reward": 1.0, "pytest_passed": 14},
+    "qfbench2_smoke": {"admissible": true, "score": 1.0, "failure_labels": []},
+    "live_organizer_house": "not_available_locally"
+  },
+  "submission": {
+    "descriptor": "packaging/t1/submission.json",
+    "descriptor_schema_check": "pass",
+    "site_team_id": 497,
+    "sealed_zip": false,
+    "blocking_input": "Team Key"
+  },
+  "evidence_sha256": {
+    "conformance_log": "b15737aeeafd24da311db6c10b78f0cc68956a7b9b8f149f6dcde7ffc27922ec",
+    "results_parquet": "45952da1163af6b2714f0e58cbec2f5191275225a8d7c429ada8bec791fc9610",
+    "reward_json": "efbb4b8e46a90308cbf9453a834c2ee194fc1638821ef2c1c3d68b5eb23b5064",
+    "pytest_report_json": "d1485d716d6c8d624233b9f142dba99962fba79d6902216f319ff2014a8db4fc",
+    "qfbench2_smoke_log": "61e3d04bc9ffa14a31cac0b033575359c113880d31ca774c8bc2032ae730a074"
+  }
+}

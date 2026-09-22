@@ -21,8 +21,18 @@ Model path: deterministic registry handler plus adaptive House generate/execute/
 - Official offline checker: 14 passed, reward `1.0`.
 - Pinned `qfbench2-smoke`: `admissible=True`, `score=1.0`, no failure labels. Under the
   sequential Track 1 verifier contract this is the local exemplar evidence for g0-g3 acceptance.
+- GitHub Actions run `35681724143`: success for source commit
+  `4ab5aad5371b43241d47bab48b723d3b6f7c62e9`.
+- Published single-manifest image:
+  `ghcr.io/aicreator27/agenthon-t1@sha256:d9d74a4070117654603166244546bb7df026f0aa41066918b684e27d7f22caff`.
+- Remote digest inspection and pull: linux/amd64, interface `2.0`.
+- Anonymous digest inspection with a fresh empty Docker config: pass.
+- The exact remote digest passed the official exemplar checker (`reward=1.0`, 14 tests) and pinned
+  qfbench2 verifier (`admissible=True`, `score=1.0`, no labels).
+- The unsealed Development descriptor passes the pinned official C5 parser after in-memory sealing;
+  it declares the exact official House model row and immutable image digest.
 
-Evidence run: `evidence/runs/t1-smoke-20260922-105434/`. Full conformance log:
+Registry evidence run: `evidence/runs/t1-smoke-20260922-110803/`. Full conformance log:
 `evidence/reports/t1-conformance-v01.log` (SHA-256
 `b15737aeeafd24da311db6c10b78f0cc68956a7b9b8f149f6dcde7ffc27922ec`).
 
@@ -35,7 +45,8 @@ Evidence run: `evidence/runs/t1-smoke-20260922-105434/`. Full conformance log:
 - The 87-unit sweep proves exit/output contract compatibility only. It does not establish public
   pass@1 because the offline run correctly has no organizer House route.
 - The submission descriptor generator is implemented and uses the official House disclosure.
-  Registry digest, anonymous pullability and sealed team claim remain pending.
+  The only packaging blocker is the Team Key needed to derive `team_id` and sign `team-claim.json`;
+  no key is stored in this repository. The known team number is 497.
 
 ## Interpretation boundary
 

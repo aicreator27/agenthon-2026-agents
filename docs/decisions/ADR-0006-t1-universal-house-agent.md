@@ -37,3 +37,9 @@ it is not represented as a correct solution.
 The organizer House route is not available in local development. Mock-House tests establish the
 transport and state-machine contract, not model quality. Public-practice correctness and hidden-task
 generalization remain official-platform measurements and must not be inferred from conformance.
+
+T1 and T2 share the single source repository `aicreator27/agenthon-2026-agents`, while every
+track-owned asset is explicitly named or rooted by track: `tracks/t1_agenthon` versus
+`tracks/t2_agenthon`, `packaging/t1` versus `packaging/t2`, `publish-t1-image.yml` versus
+`publish-t2-image.yml`, and GHCR packages `agenthon-t1` versus `agenthon-t2`. The already-public
+T2 package is not renamed or modified by T1 publication.
