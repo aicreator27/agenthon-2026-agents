@@ -31,6 +31,13 @@ Model path: deterministic registry handler plus adaptive House generate/execute/
   qfbench2 verifier (`admissible=True`, `score=1.0`, no labels).
 - The unsealed Development descriptor passes the pinned official C5 parser after in-memory sealing;
   it declares the exact official House model row and immutable image digest.
+- Official `qfbench2 submission pack` produced `packaging/t1/submission.zip` for site team 497 and
+  derived team id `team-d97f76905fee06ab78eb89d72e5e19f4`.
+- Sealed archive verification: 15/15 checks pass, including exact two-file layout, official
+  descriptor parsing, immutable digest, House disclosure, descriptor-byte binding and Team Key
+  HMAC proof. The key itself is absent from the archive.
+- Submission zip SHA-256:
+  `599dc65b430dc4e315f87846d15ca03cb6aaf45e59b34a8a42a00c139564666c`.
 
 Registry evidence run: `evidence/runs/t1-smoke-20260922-110803/`. Full conformance log:
 `evidence/reports/t1-conformance-v01.log` (SHA-256
@@ -44,9 +51,9 @@ Registry evidence run: `evidence/runs/t1-smoke-20260922-110803/`. Full conforman
   limited to the worked Black-Scholes exemplar.
 - The 87-unit sweep proves exit/output contract compatibility only. It does not establish public
   pass@1 because the offline run correctly has no organizer House route.
-- The submission descriptor generator is implemented and uses the official House disclosure.
-  The only packaging blocker is the Team Key needed to derive `team_id` and sign `team-claim.json`;
-  no key is stored in this repository. The known team number is 497.
+- Packaging is complete. No Team Key is stored in the repository or archive.
+- No official Development upload has been made. Therefore competitive public/hidden-task pass@1
+  remains unmeasured; the exemplar reward proves usability, not leaderboard competitiveness.
 
 ## Interpretation boundary
 

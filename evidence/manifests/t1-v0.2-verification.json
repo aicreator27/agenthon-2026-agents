@@ -32,8 +32,11 @@
     "descriptor": "packaging/t1/submission.json",
     "descriptor_schema_check": "pass",
     "site_team_id": 497,
-    "sealed_zip": false,
-    "blocking_input": "Team Key"
+    "sealed_zip": true,
+    "derived_team_id": "team-d97f76905fee06ab78eb89d72e5e19f4",
+    "pre_upload_checks": "15/15 pass",
+    "zip_sha256": "599dc65b430dc4e315f87846d15ca03cb6aaf45e59b34a8a42a00c139564666c",
+    "official_development_upload": "not_submitted"
   },
   "evidence_sha256": {
     "conformance_log": "b15737aeeafd24da311db6c10b78f0cc68956a7b9b8f149f6dcde7ffc27922ec",
