@@ -72,7 +72,8 @@
     "derived_team_id": "team-d97f76905fee06ab78eb89d72e5e19f4",
     "pre_upload_checks": "15/15 pass",
     "zip_sha256": "599dc65b430dc4e315f87846d15ca03cb6aaf45e59b34a8a42a00c139564666c",
-    "official_development_upload": "not_submitted"
+    "official_development_upload": "not_submitted",
+    "team_id_status": "HISTORICAL \u2014 the Team Key was rotated 2026-09-23, so this derived team_id and the archive built under it are superseded. Repack before uploading."
   },
   "evidence_sha256": {
     "conformance_log": "b15737aeeafd24da311db6c10b78f0cc68956a7b9b8f149f6dcde7ffc27922ec",
@@ -80,5 +81,6 @@
     "reward_json": "efbb4b8e46a90308cbf9453a834c2ee194fc1638821ef2c1c3d68b5eb23b5064",
     "pytest_report_json": "d1485d716d6c8d624233b9f142dba99962fba79d6902216f319ff2014a8db4fc",
     "qfbench2_smoke_log": "61e3d04bc9ffa14a31cac0b033575359c113880d31ca774c8bc2032ae730a074"
-  }
+  },
+  "status": "repack_required_after_key_rotation"
 }

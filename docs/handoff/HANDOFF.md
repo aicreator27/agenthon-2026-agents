@@ -42,14 +42,14 @@ Updated: 2026-09-22
 
 ## Next safe action
 
-T2 is packed and validated: `packaging/t2/submission.zip`, 17/17 pre-upload checks, pinned to
-`sha256:e3991ed0…` which is anonymously pullable. T1 is likewise packed and its package is public
-as of 2026-09-23.
+Repack both tracks under the rotated Team Key, then upload. The Team Key was rotated on
+2026-09-23, which changes the derived `team_id`, so the archives packed before that carry a proof
+that will not verify (`claim_conflict`, held, and it still spends an attempt). Both have been
+renamed `submission-OLDKEY-DO-NOT-UPLOAD.zip`. The descriptors carry no `team_id` and need no
+change; `pack` refills it.
 
-The only open decision is whether to rotate the exposed Team Key first. Rotating changes the
-derived `team_id`, so anything packed under the old key must be repacked; rotating *after* an
-upload risks `descriptor_team_mismatch`, the one participant-visible cancellation. Rotate first,
-repack both tracks, then upload.
+Tell the organizers about the rotation before the first upload, as `TEAM-CLAIM.md` requires.
+Nothing has been uploaded yet, so no account is linked to the old alias.
 
 Track 2 allows five uploads per team per day and twenty in total during Development; Track 1
 allows one per day. A held or cancelled upload still consumes an attempt.

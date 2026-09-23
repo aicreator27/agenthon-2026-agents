@@ -7,6 +7,8 @@ Per-track detail lives in [HANDOFF.md](HANDOFF.md) (T2 operational state) and
 in `docs/decisions/`. Nothing below should be taken on trust: every claim names the evidence that
 backs it.
 
+[handoff.html](handoff.html) is a self-contained Chinese rendering of this file for people who have not cloned the repo — download and open it in a browser. **This file is the source of truth**; regenerate the HTML when they diverge.
+
 ---
 
 ## 1. Thirty-second state
@@ -16,7 +18,7 @@ backs it.
 | Image | `ghcr.io/aicreator27/agenthon-t1@sha256:d9d74a40…` | `ghcr.io/aicreator27/agenthon-t2@sha256:e3991ed0…` |
 | Package public | yes, verified 2026-09-23 | yes, verified anonymously |
 | Local gates | 10/10 contract, 87/87 conformance, exemplar reward 1.0 | 1/1 contract, exemplar admissible, matrix 36/36 |
-| Descriptor | packed, 15/15 checks | packed for v0.3, 17/17 checks |
+| Descriptor | ready; **repack needed** (key rotated) | ready; **repack needed** (key rotated) |
 | Uploaded | no | no |
 | Measured quality | exemplar only; no non-exemplar public task earns reward 1 | 0.826 vs M0 on daily level, p < 0.00005 |
 
@@ -46,19 +48,31 @@ Keep the lesson, not just the outcome: the original evidence recorded
 says *may use your saved login and therefore cannot by itself prove anonymous access*. Always use
 the token method in section 6.
 
-### B2 — the Team Key was exposed in plaintext in a chat transcript on 2026-09-22
+### B2 — CLEARED 2026-09-23, but it invalidated both packed archives
 
-Ask the organizers to rotate it. Rotation changes the derived `team_id`, so **both tracks must
-repack** afterwards. Until then treat `team-d97f76905fee06ab78eb89d72e5e19f4` as provisional.
+The exposed Team Key has been rotated. Two consequences follow, and they are not optional.
 
-T2 was repacked against the v0.3 digest on 2026-09-23 and passes 17/17 pre-upload checks
-(zip sha256 `206d19b8…`). The superseded v0.2 archive was renamed
-`submission-v0.2-SUPERSEDED-DO-NOT-UPLOAD.zip` so it cannot be uploaded by mistake.
+**Both archives must be repacked.** `team_id` is derived from the key, so the archives packed
+under the old key now carry the wrong id and a proof that will not verify. `TEAM-CLAIM.md` lists
+the outcome for a claim that "was built under an old key" as **held: `claim_conflict`** — which
+still consumes an upload attempt, and T1 only gets one per day. Both have been renamed to
+`submission-OLDKEY-DO-NOT-UPLOAD.zip` so they cannot be sent by mistake. Repack each with the new
+key:
 
-Both tracks are now packed and validated. **Nothing is blocking an upload except the decision in
-B2.**
+```
+docker run --rm -it -v "<repo>/packaging/t2:/out" --entrypoint qfbench2 agenthon-t2-verifier:dev   submission pack --descriptor /out/submission.json --team-number 497 --out /out/submission.zip
+```
 
----
+and the same against `packaging/t1` with the T1 verifier image. The descriptors themselves are
+unaffected — they carry no `team_id`, which is exactly why `pack` can refill them.
+
+**Tell the organizers before the next upload.** `TEAM-CLAIM.md`: *"A different key gives a
+different id, so if your Team Key is ever rotated on the website, tell the organizers before your
+next upload."* Nothing has been uploaded yet, so no account is linked to the old alias — this is
+the cheapest possible moment for the rotation to have happened.
+
+The new `team_id` is whatever `pack` derives; the old one, `team-d97f76905fee06ab78eb89d72e5e19f4`,
+appears throughout the evidence files and is now historical.
 
 ## 3. What the competition actually requires
 

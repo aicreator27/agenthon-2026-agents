@@ -5,7 +5,8 @@ and **Track 2 (forecasting)**.
 
 ## Joining the project? Read this first
 
-**[docs/handoff/TEAM_HANDOFF.md](docs/handoff/TEAM_HANDOFF.md)** — current state of both tracks,
+**[docs/handoff/TEAM_HANDOFF.md](docs/handoff/TEAM_HANDOFF.md)**
+(中文單檔版：[docs/handoff/handoff.html](docs/handoff/handoff.html)，下載後用瀏覽器開啟) — current state of both tracks,
 the open blockers, how to get from a fresh clone to a first scored run, what has already been
 tried and rejected, and the traps that have cost time. Everything below is a summary of it.
 

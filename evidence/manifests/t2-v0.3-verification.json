@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-22T12:05:00+08:00",
-  "status": "packed_and_validated_ready_to_upload",
+  "status": "repack_required_after_key_rotation",
   "implementation": {
     "track": "T2",
     "entrypoint": "forecast",
@@ -90,6 +90,7 @@
       "T1 and T2 zips derive the identical team_id, so the Team Key entered was the same one T1 was packed under; a wrong key would have produced a different id"
     ],
     "not_independently_reverified": "the HMAC proof value itself, which requires the Team Key. pack computed it; check 14 confirms it is bound to these exact submission.json bytes and check 15 its shape.",
-    "official_development_upload": "not_submitted"
+    "official_development_upload": "not_submitted",
+    "team_id_status": "HISTORICAL \u2014 the Team Key was rotated 2026-09-23, so this derived team_id and the archive built under it are superseded. Repack before uploading."
   }
 }
