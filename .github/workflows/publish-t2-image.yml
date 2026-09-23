@@ -41,12 +41,14 @@ jobs:
           file: packaging/t2/Dockerfile
           platforms: linux/amd64
           push: true
+          # CI tags the commit only. A version tag asserts "this digest passed the gates",
+          # which CI cannot know: it is applied by hand after build/test/smoke and the
+          # admissibility matrix run against that exact digest. A push to main once moved
+          # :v0.3.0 onto an unverified CI build; this is the fix.
           tags: |
-            ${{ env.IMAGE }}:v0.3.0
             ${{ env.IMAGE }}:sha-${{ github.sha }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
-            org.opencontainers.image.version=v0.3.0
           provenance: false
           sbom: false

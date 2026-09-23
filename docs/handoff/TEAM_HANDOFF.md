@@ -304,6 +304,15 @@ Traps that have already cost time here:
   *index* containing an `unknown/unknown` attestation manifest. Build with
   `--provenance=false --sbom=false`; the scripts already do.
 - **Pin the base image by digest**, or a CI rebuild is not the artifact you verified.
+- **A version tag is a claim CI cannot make.** Pushing to main rebuilds the image, and the T2
+  workflow used to re-tag `:v0.3.0` onto that rebuild — moving the tag off the digest that had
+  actually passed the gates. The submission was unaffected (descriptors pin a digest, and the
+  verified one stayed pullable), but anyone resolving the tag would have got unverified bytes.
+  CI now tags `sha-<commit>` only; apply a version tag by hand after the gates pass on that exact
+  digest. **T1's workflow still tags `:v0.2.0` on every qualifying push** — its owner should
+  decide whether to make the same change.
+- **`core/` is shared, and both publish workflows trigger on `core/**`.** A change there rebuilds
+  and re-tags *both* images. Check both tracks' tags after touching it.
 - **PowerShell 5.1 `Set-Content -Encoding utf8` writes a BOM**, and the toolkit's `json.load`
   rejects it outright. Write descriptor bytes with `UTF8Encoding($false)`; the script now does.
 - **`pack` refuses a descriptor whose `team_id` disagrees** with the derived one. Omit the field.
