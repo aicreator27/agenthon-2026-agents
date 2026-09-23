@@ -42,18 +42,17 @@ Updated: 2026-09-22
 
 ## Next safe action
 
-`packaging/t2/submission.json` has been regenerated against the v0.3 digest, so **the existing
-`submission.zip` is stale and must be repacked** before uploading:
+T2 is packed and validated: `packaging/t2/submission.zip`, 17/17 pre-upload checks, pinned to
+`sha256:e3991ed0…` which is anonymously pullable. T1 is likewise packed and its package is public
+as of 2026-09-23.
 
-```
-docker run --rm -it -v "<repo>/packaging/t2:/out" --entrypoint qfbench2 agenthon-t2-verifier:dev   submission pack --descriptor /out/submission.json --team-number 497 --out /out/submission.zip
-```
+The only open decision is whether to rotate the exposed Team Key first. Rotating changes the
+derived `team_id`, so anything packed under the old key must be repacked; rotating *after* an
+upload risks `descriptor_team_mismatch`, the one participant-visible cancellation. Rotate first,
+repack both tracks, then upload.
 
-`--team-key-file` is not usable from a Windows bind mount: the toolkit refuses a key file that is
-readable by group or others, and a bind mount cannot present mode 600. Use the hidden prompt.
-
-The Team Key was exposed in plaintext in a chat transcript on 2026-09-22 and should be rotated
-with the organizers. Rotating changes the derived `team_id`, so repack after any rotation.
+Track 2 allows five uploads per team per day and twenty in total during Development; Track 1
+allows one per day. A held or cancelled upload still consumes an attempt.
 
 ## Gate order
 

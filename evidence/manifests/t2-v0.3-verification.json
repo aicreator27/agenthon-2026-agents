@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-22T12:05:00+08:00",
-  "status": "v03_pushed_descriptor_regenerated_repack_required",
+  "status": "packed_and_validated_ready_to_upload",
   "implementation": {
     "track": "T2",
     "entrypoint": "forecast",
@@ -75,5 +75,21 @@
     "forecast_meta.json": "D393BF8BBD90A9AAAAE899503E39FCDA6608EE4A05C3882B2CD0E596B05539DE",
     "forecast_rationale.md": "CA42785929AB0975D73970C3529F58283D8B2193DC4994487317BA3CD2A41126"
   },
-  "supersedes": "evidence/manifests/t2-v0.2-verification.json"
+  "supersedes": "evidence/manifests/t2-v0.2-verification.json",
+  "submission": {
+    "zip": "packaging/t2/submission.zip (gitignored)",
+    "zip_sha256": "206d19b8247b0e96492f92062b6268631ea1186a22b34d9cedfbcefbd82c51ea",
+    "packed_at": "2026-09-23",
+    "team_id": "team-d97f76905fee06ab78eb89d72e5e19f4",
+    "site_team_id": 497,
+    "image_digest": "sha256:e3991ed0cad9097e5b00e1a2560b5642e72f31b181de77271b65b6479866b066",
+    "pre_upload_checks": "17/17 pass",
+    "cross_checks": [
+      "the image digest in the zip is the digest that passed build, contract test, offline exemplar and the 36/36 admissibility matrix",
+      "that digest returned HTTP 200 to an anonymous GHCR token at pack time",
+      "T1 and T2 zips derive the identical team_id, so the Team Key entered was the same one T1 was packed under; a wrong key would have produced a different id"
+    ],
+    "not_independently_reverified": "the HMAC proof value itself, which requires the Team Key. pack computed it; check 14 confirms it is bound to these exact submission.json bytes and check 15 its shape.",
+    "official_development_upload": "not_submitted"
+  }
 }

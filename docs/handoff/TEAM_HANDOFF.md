@@ -16,7 +16,7 @@ backs it.
 | Image | `ghcr.io/aicreator27/agenthon-t1@sha256:d9d74a40…` | `ghcr.io/aicreator27/agenthon-t2@sha256:e3991ed0…` |
 | Package public | yes, verified 2026-09-23 | yes, verified anonymously |
 | Local gates | 10/10 contract, 87/87 conformance, exemplar reward 1.0 | 1/1 contract, exemplar admissible, matrix 36/36 |
-| Descriptor | packed, 15/15 checks | regenerated for v0.3, **zip stale, must repack** |
+| Descriptor | packed, 15/15 checks | packed for v0.3, 17/17 checks |
 | Uploaded | no | no |
 | Measured quality | exemplar only; no non-exemplar public task earns reward 1 | 0.826 vs M0 on daily level, p < 0.00005 |
 
@@ -51,9 +51,12 @@ the token method in section 6.
 Ask the organizers to rotate it. Rotation changes the derived `team_id`, so **both tracks must
 repack** afterwards. Until then treat `team-d97f76905fee06ab78eb89d72e5e19f4` as provisional.
 
-Also outstanding: T2's `packaging/t2/submission.json` was regenerated against the v0.3 digest, so
-the existing `packaging/t2/submission.zip` points at the superseded v0.2 image and must be
-repacked.
+T2 was repacked against the v0.3 digest on 2026-09-23 and passes 17/17 pre-upload checks
+(zip sha256 `206d19b8…`). The superseded v0.2 archive was renamed
+`submission-v0.2-SUPERSEDED-DO-NOT-UPLOAD.zip` so it cannot be uploaded by mistake.
+
+Both tracks are now packed and validated. **Nothing is blocking an upload except the decision in
+B2.**
 
 ---
 
