@@ -1,5 +1,11 @@
 # Track 1 verification status
 
+> Joining the project? Start at `docs/handoff/TEAM_HANDOFF.md`.
+> Anonymous pullability was re-verified on 2026-09-23 with the official token method after the
+> package was made public: token issued, manifest HTTP 200, all 11 blobs HTTP 206 credential-free,
+> and the remote digest passed the official gate (reward 1.0, 14 tests). The
+> `buildx imagetools inspect` line below is retained but does not by itself prove anonymity.
+
 Updated: 2026-09-22  
 Model path: deterministic registry handler plus adaptive House generate/execute/repair agent
 
@@ -26,7 +32,9 @@ Model path: deterministic registry handler plus adaptive House generate/execute/
 - Published single-manifest image:
   `ghcr.io/aicreator27/agenthon-t1@sha256:d9d74a4070117654603166244546bb7df026f0aa41066918b684e27d7f22caff`.
 - Remote digest inspection and pull: linux/amd64, interface `2.0`.
-- Anonymous digest inspection with a fresh empty Docker config: pass.
+- Anonymous digest inspection with a fresh empty Docker config: pass. Independently
+  re-confirmed 2026-09-23 by the official anonymous-token method (see the note above);
+  GitHub's packages API reports the package `public`.
 - The exact remote digest passed the official exemplar checker (`reward=1.0`, 14 tests) and pinned
   qfbench2 verifier (`admissible=True`, `score=1.0`, no labels).
 - The unsealed Development descriptor passes the pinned official C5 parser after in-memory sealing;

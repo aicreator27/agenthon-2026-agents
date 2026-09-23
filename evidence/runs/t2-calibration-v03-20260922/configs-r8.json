@@ -1,0 +1,10 @@
+{
+  "baseline":   {},
+  "dec1":       {"drift_evidence_c": 1.0},
+  "dec4":       {"drift_evidence_c": 4.0},
+  "dec9":       {"drift_evidence_c": 9.0},
+  "dec25":      {"drift_evidence_c": 25.0},
+  "dec100":     {"drift_evidence_c": 100.0},
+  "dec9_bmin3": {"drift_evidence_c": 9.0, "block_length_days": 31, "block_min": 3},
+  "dec25_bmin3":{"drift_evidence_c": 25.0, "block_length_days": 31, "block_min": 3}
+}

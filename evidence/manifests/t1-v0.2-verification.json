@@ -14,7 +14,27 @@
     "media_type": "application/vnd.oci.image.manifest.v1+json",
     "platform": "linux/amd64",
     "interface_version": "2.0",
-    "anonymous_digest_inspect": "pass"
+    "anonymous_digest_inspect": "superseded \u2014 buildx imagetools inspect cannot prove anonymity; see anonymous_pullability",
+    "anonymous_pullability": {
+      "checked_at": "2026-09-23",
+      "method": "official RUNTIME-ENVIRONMENT.md procedure: request an anonymous GHCR token, then fetch the manifest by immutable digest and every blob credential-free",
+      "anonymous_token": "issued",
+      "manifest_http": 200,
+      "media_type": "application/vnd.oci.image.manifest.v1+json",
+      "is_index": false,
+      "blobs_checked": 11,
+      "blobs_result": "HTTP 206 on config and all 10 layers",
+      "github_packages_api_visibility": "public",
+      "credential_free_pull": "pass (isolated empty DOCKER_CONFIG); linux/amd64, interface 2.0, verb solve",
+      "remote_digest_gate": {
+        "reward": 1.0,
+        "pytest_passed": 14,
+        "failed": 0,
+        "run": "t1-smoke-20260923-111217"
+      },
+      "result": "pass",
+      "history": "was private on 2026-09-22 despite the descriptor declaring image_access public; made public and re-verified 2026-09-23"
+    }
   },
   "github_actions": {
     "run_id": 35681724143,
@@ -22,10 +42,26 @@
     "url": "https://github.com/aicreator27/agenthon-2026-agents/actions/runs/35681724143"
   },
   "gates": {
-    "focused_contract_tests": {"passed": 10, "failed": 0},
-    "public_conformance": {"units": 87, "ok": 87, "crashed": 0, "missing": 0, "unchecked": 0},
-    "official_exemplar": {"reward": 1.0, "pytest_passed": 14},
-    "qfbench2_smoke": {"admissible": true, "score": 1.0, "failure_labels": []},
+    "focused_contract_tests": {
+      "passed": 10,
+      "failed": 0
+    },
+    "public_conformance": {
+      "units": 87,
+      "ok": 87,
+      "crashed": 0,
+      "missing": 0,
+      "unchecked": 0
+    },
+    "official_exemplar": {
+      "reward": 1.0,
+      "pytest_passed": 14
+    },
+    "qfbench2_smoke": {
+      "admissible": true,
+      "score": 1.0,
+      "failure_labels": []
+    },
     "live_organizer_house": "not_available_locally"
   },
   "submission": {

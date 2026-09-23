@@ -1,7 +1,7 @@
 # Verification status
 
 Updated: 2026-09-22
-Model: `text-disabled-v0.2-calibrated` (ADR-0004)
+Model: `text-disabled-v0.3-calibrated` (ADR-0004 + ADR-0007)
 
 ## Verified
 
@@ -54,16 +54,19 @@ decision. v0.1 was not significant.
 influenced no tuning decision -- 1,376 log_return pseudo-units and 281 monthly ones -- both
 versions score *above* 1.0, i.e. worse than the text-blind baseline:
 
-| population | v0.1 | v0.2 | v0.2 beats M0 |
-|---|---|---|---|
-| daily level (holdout) | 0.9540 | **0.8249** | 72.0% |
-| log_return | 1.1607 | 1.0360 | 53.3% |
-| monthly macro | 1.3197 | 1.1997 | 42.0% |
+| population | v0.1 | v0.2 | **v0.3** | v0.3 beats M0 |
+|---|---|---|---|---|
+| daily level (holdout) | 0.9540 | 0.8249 | **0.8264** | 71.9% |
+| log_return | 1.1607 | 1.0369 | **1.0218** | 59.6% |
+| monthly macro | 1.3197 | 1.0756 | **0.9984** | 55.6% |
+
+ADR-0007's evidence-weighted drift closed most of that gap: monthly is now at parity with M0 and
+log_return improved, at a daily cost of +0.0015 (3% of the holdout's bootstrap width).
 
 The calibration itself does generalize -- v0.2 beats v0.1 by 0.124 paired on the untouched
 populations -- but the *predictive power* is specific to daily level panels. Weighting by the
 roster mix (roughly 81% daily level, 15% log_return, 4 monthly cards) gives an expected roster
-score near **0.87**, not 0.8249. Details: `evidence/runs/t2-calibration-v02-20260922/TRANSFER.md`.
+score near **0.863** for v0.3 (0.867 for v0.2), not 0.8249. Details: `evidence/runs/t2-calibration-v02-20260922/TRANSFER.md`.
 
 ## Not yet verified
 

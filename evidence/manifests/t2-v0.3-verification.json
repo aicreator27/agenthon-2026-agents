@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-22T12:05:00+08:00",
+  "status": "v03_pushed_descriptor_regenerated_repack_required",
+  "implementation": {
+    "track": "T2",
+    "entrypoint": "forecast",
+    "model_version": "text-disabled-v0.3-calibrated",
+    "default_draws": 1000,
+    "calibrated_defaults": {
+      "history_window": 300,
+      "block_length": 31,
+      "bootstrap_weight": 0.8,
+      "drift_evidence_c": 25.0,
+      "block_length_days": null,
+      "block_min": 1,
+      "variance_ratio": false
+    }
+  },
+  "verification": {
+    "contract_tests": "1/1 pass",
+    "official_exemplar": {
+      "admissible": true,
+      "g0": "pass",
+      "g1": "pass",
+      "g2": "pass",
+      "g3": "pass"
+    },
+    "public_admissibility_matrix": "36/36 admissible",
+    "offline_official_smoke": "admissible; no failure labels"
+  },
+  "predictive_power": {
+    "daily_level_holdout": {
+      "units": 1168,
+      "v02": 0.8249,
+      "v03": 0.8264,
+      "beats_m0": 0.719
+    },
+    "log_return_holdout": {
+      "units": 411,
+      "v02": 1.0369,
+      "v03": 1.0218,
+      "beats_m0": 0.596
+    },
+    "monthly_holdout": {
+      "units": 81,
+      "v02": 1.0756,
+      "v03": 0.9984,
+      "beats_m0": 0.556
+    },
+    "roster_mix_expectation": {
+      "v02": 0.8668,
+      "v03": 0.8626
+    },
+    "remaining_weak_shape": {
+      "shape": "log_return a1h21_63",
+      "mean": 1.1948,
+      "median": 1.0384,
+      "clipped_fraction": 0.037
+    }
+  },
+  "container": {
+    "registry_reference": "ghcr.io/aicreator27/agenthon-t2:v0.3.0",
+    "digest": "sha256:e3991ed0cad9097e5b00e1a2560b5642e72f31b181de77271b65b6479866b066",
+    "media_type": "application/vnd.oci.image.manifest.v1+json",
+    "is_index": false,
+    "anonymous_manifest_http": 200,
+    "os": "linux",
+    "architecture": "amd64",
+    "interface_version": "2.0",
+    "smoke_run": "t2-smoke-20260922-115829"
+  },
+  "exemplar_output_sha256": {
+    "forecast.parquet": "4CB9F02337F354A3892C69DD8CB6FBEFFDBC7D4B0A7EA2C315FF3A610CED466E",
+    "forecast_meta.json": "D393BF8BBD90A9AAAAE899503E39FCDA6608EE4A05C3882B2CD0E596B05539DE",
+    "forecast_rationale.md": "CA42785929AB0975D73970C3529F58283D8B2193DC4994487317BA3CD2A41126"
+  },
+  "supersedes": "evidence/manifests/t2-v0.2-verification.json"
+}

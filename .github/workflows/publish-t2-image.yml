@@ -42,11 +42,11 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ env.IMAGE }}:v0.2.0
+            ${{ env.IMAGE }}:v0.3.0
             ${{ env.IMAGE }}:sha-${{ github.sha }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
-            org.opencontainers.image.version=v0.2.0
+            org.opencontainers.image.version=v0.3.0
           provenance: false
           sbom: false

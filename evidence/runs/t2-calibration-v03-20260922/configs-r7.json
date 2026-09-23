@@ -1,0 +1,13 @@
+{
+  "baseline":    {},
+  "bmin1":       {"block_length_days": 31, "block_min": 1},
+  "bmin2":       {"block_length_days": 31, "block_min": 2},
+  "bmin3":       {"block_length_days": 31, "block_min": 3},
+  "bmin4":       {"block_length_days": 31, "block_min": 4},
+  "bmin6":       {"block_length_days": 31, "block_min": 6},
+  "rds00":       {"return_drift_shrink": 0.0},
+  "rds25":       {"return_drift_shrink": 0.25},
+  "rds50":       {"return_drift_shrink": 0.50},
+  "df30":        {"degrees_freedom": 30.0},
+  "bmin2_rds25": {"block_length_days": 31, "block_min": 2, "return_drift_shrink": 0.25}
+}

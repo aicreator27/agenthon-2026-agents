@@ -1,0 +1,5995 @@
+[
+ {
+  "unit_id": "pu-factors_lr-2017-05-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-05-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-05-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-05-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-05-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-06-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-06-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-06-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-06-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-06-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-06-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-06-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-07-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-07-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-07-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-07-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-07-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-07-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-07-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-07-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-07-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-07-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-08-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-08-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-08-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-08-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-08-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-09-20-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-09-20-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-09-20-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-09-20-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-09-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-09-20-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-09-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-10-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-10-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-10-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-10-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-10-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-10-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-10-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-11-17-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-11-17",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-11-17-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-11-17",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-11-17-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-11-17",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-11-17-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-11-17",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-11-17-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-11-17",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-12-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-12-19",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-12-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-12-19",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-12-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-12-19",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-12-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-12-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2017-12-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2017-12-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-01-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-01-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-01-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-01-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-01-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-01-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-01-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-02-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-02-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-02-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-02-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-02-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-02-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-02-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-02-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-02-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-02-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-03-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-03-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-03-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-03-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-03-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-03-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-03-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-03-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-03-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-03-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-04-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-04-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-04-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-04-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-04-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-05-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-05-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-05-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-05-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-05-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-06-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-06-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-06-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-06-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-06-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-06-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-06-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-06-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-07-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-07-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-07-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-07-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-07-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-08-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-08-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-08-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-08-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-08-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-09-20-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-09-20-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-09-20-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-09-20",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-09-20-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-09-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-09-20-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-09-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-10-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-10-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-10-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-10-19",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-10-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-10-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-10-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-10-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-11-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-11-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-11-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-11-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-11-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-12-20-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-12-20-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-12-20-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-12-20-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-12-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2018-12-20-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2018-12-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-01-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-01-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-01-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-01-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-01-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-01-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-01-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-02-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-02-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-02-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-02-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-02-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-02-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-02-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-03-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-03-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-03-25-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-03-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-03-25-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-03-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-03-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-03-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-03-25-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-03-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-04-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-04-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-04-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-04-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-04-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-04-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-04-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-04-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-04-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-04-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-05-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-05-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-05-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-05-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-05-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-05-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-05-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-06-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-06-24",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-06-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-06-24",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-06-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-06-24",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-06-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-06-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-06-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-06-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-07-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-07-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-07-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-07-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-07-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-07-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-07-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-07-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-07-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-07-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-08-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-08-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-08-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-08-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-08-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-08-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-08-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-08-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-08-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-08-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-09-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-09-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-09-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-09-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-09-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-09-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-09-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-09-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-09-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-09-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-10-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-10-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-10-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-10-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-10-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-10-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-10-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-10-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-10-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-10-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-11-20-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-11-20",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-11-20-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-11-20",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-11-20-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-11-20",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-11-20-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-11-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-11-20-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-11-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-12-20-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-12-20-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-12-20-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-12-20",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-12-20-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-12-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2019-12-20-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2019-12-20",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-01-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-01-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-01-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-01-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-01-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-01-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-01-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-01-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-02-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-02-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-02-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-02-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-02-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-02-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-02-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-02-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-02-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-02-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-03-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-03-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-03-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-03-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-03-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-04-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-04-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-04-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-04-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-04-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-05-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-05-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-05-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-05-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-05-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-05-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-05-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-06-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-06-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-06-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-06-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-06-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-07-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-07-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-07-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-07-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-07-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-08-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-08-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-08-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-08-21",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-08-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-08-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-08-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-09-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-09-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-09-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-09-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-09-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-10-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-10-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-10-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-10-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-10-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-11-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-11-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-11-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-11-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-11-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-12-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-12-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-12-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-12-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2020-12-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2020-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-01-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-01-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-01-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-01-22",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-01-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-01-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-01-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-01-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-02-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-02-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-02-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-02-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-02-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-02-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-02-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-03-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-03-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-03-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-03-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-03-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-04-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-04-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-04-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-04-23",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-04-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-04-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-04-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-05-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-05-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-05-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-05-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-05-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-05-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-05-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-06-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-06-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-06-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-06-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-06-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-07-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-07-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-07-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-07-23",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-07-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-07-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-07-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-08-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-08-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-08-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-08-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-08-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-08-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-08-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-09-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-09-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-09-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-09-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-09-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-10-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-10-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-10-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-10-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-10-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-11-19-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-11-19-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-11-19-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-11-19",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-11-19-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-11-19-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-11-19",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-12-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-12-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-12-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-12-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2021-12-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2021-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-01-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-01-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-01-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-01-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-01-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-01-21",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-01-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-01-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-01-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-01-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-02-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-02-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-02-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-02-22",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-02-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-02-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-02-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-02-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-03-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-03-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-03-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-03-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-03-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-03-23",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-03-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-03-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-03-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-03-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-04-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-04-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-04-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-04-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-04-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-04-22",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-04-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-04-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-04-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-04-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-05-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-05-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-05-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-05-23",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-05-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-05-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-05-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-05-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-06-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-06-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-06-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-06-23",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-06-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-06-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-06-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-07-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-07-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-07-25-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-07-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-07-25-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-07-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-07-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-07-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-07-25-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-07-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-08-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-08-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-08-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-08-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-08-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-08-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-08-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-08-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-09-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-09-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-09-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-09-22",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-09-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-09-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-09-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-10-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-10-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-10-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-10-21",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-10-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-10-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-10-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-11-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-11-21",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-11-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-11-21",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-11-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-11-21",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-11-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-11-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-11-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-11-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-12-21-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-12-21-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-12-21-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-12-21",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-12-21-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2022-12-21-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2022-12-21",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-01-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-01-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-01-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-01-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-01-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-01-24",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-01-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-01-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-01-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-01-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-02-23-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-02-23-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-02-23-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-02-23",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-02-23-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-02-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-02-23-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-02-23",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-03-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-03-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-03-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-03-24",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-03-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-03-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-03-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-04-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-04-25",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-04-25-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-04-25",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-04-25-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-04-25",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-04-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-04-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-04-25-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-04-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-05-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-05-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-05-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-05-24",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-05-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-05-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-05-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-05-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-06-26-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-06-26",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-06-26-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-06-26",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-06-26-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-06-26",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-06-26-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-06-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-06-26-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-06-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-07-26-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-07-26",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-07-26-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-07-26",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-07-26-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-07-26",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-07-26-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-07-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-07-26-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-07-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-08-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-08-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-08-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-08-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-08-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-08-24",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-08-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-08-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-08-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-08-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-09-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-09-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-09-25-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-09-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-09-25-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-09-25",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-09-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-09-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-09-25-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-09-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-10-24-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-10-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-10-24-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-10-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-10-24-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-10-24",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-10-24-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-10-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-10-24-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-10-24",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-11-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-11-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-11-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-11-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-11-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-11-22",
+  "assets": [
+   "HML"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-11-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-11-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-11-22-a4h63_126",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-11-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   63,
+   126
+  ],
+  "target_type": "log_return",
+  "shape": "a4h63_126"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-12-22-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-12-22",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-12-22-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-12-22",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-12-22-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-12-22",
+  "assets": [
+   "MKT"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2023-12-22-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2023-12-22",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-01-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-01-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-01-25-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-01-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-01-25-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-01-25",
+  "assets": [
+   "MOM"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-01-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-01-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-02-26-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-02-26",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-02-26-a1h21_63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-02-26",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   21,
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21_63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-02-26-a1h63",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-02-26",
+  "assets": [
+   "QMJ"
+  ],
+  "horizons": [
+   63
+  ],
+  "target_type": "log_return",
+  "shape": "a1h63"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-02-26-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-02-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-03-26-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-03-26",
+  "assets": [
+   "SMB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-03-26-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-03-26",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-04-25-a1h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-04-25",
+  "assets": [
+   "BAB"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a1h21"
+ },
+ {
+  "unit_id": "pu-factors_lr-2024-04-25-a4h21",
+  "panel": "/units/t2-F1-ai-mom-2024/factors_daily.parquet",
+  "asof": "2024-04-25",
+  "assets": [
+   "BAB",
+   "HML",
+   "MKT",
+   "MOM"
+  ],
+  "horizons": [
+   21
+  ],
+  "target_type": "log_return",
+  "shape": "a4h21"
+ }
+]

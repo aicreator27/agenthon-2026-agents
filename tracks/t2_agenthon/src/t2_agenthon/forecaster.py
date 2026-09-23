@@ -19,7 +19,7 @@ from .targets import log_return_steps
 class EnsembleConfig:
     """Tunable knobs of the numeric ensemble.
 
-    The defaults are the v0.2 calibration: they scored 0.8249 against the official M0
+    The defaults are the v0.3 calibration: they scored 0.8249 against the official M0
     text-blind baseline on a locked holdout of 1,168 rolling-origin pseudo-units
     (block-bootstrap p < 0.00005, HAC t = -13.4), where the v0.1 defaults scored 0.9540 at
     p = 0.054. The evidence and the rejected alternatives are in ADR-0004; the harness that
@@ -45,7 +45,7 @@ class EnsembleConfig:
     block_length_days: float | None = None  # express the block as a duration, not a row count
     block_min: int = 1  # floor in rows; binds only on panels too coarse to carry the duration
     return_drift_shrink: float = 1.0  # fraction of the trailing mean return kept on log_return
-    drift_evidence_c: float | None = None  # evidence-weighted drift; overrides the fixed shrinks
+    drift_evidence_c: float | None = 25.0  # evidence-weighted drift (ADR-0007)
     degrees_freedom: float = 6.0
 
 

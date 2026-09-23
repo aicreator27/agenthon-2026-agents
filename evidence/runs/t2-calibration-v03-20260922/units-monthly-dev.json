@@ -1,0 +1,2594 @@
+[
+ {
+  "unit_id": "pu-macro_m-2010-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2010-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2010-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2011-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2011-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2012-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2012-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2013-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2013-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2014-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2014-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2015-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2015-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-01-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-04-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-07-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-10-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2016-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2016-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-01-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-04-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-07-01",
+  "assets": [
+   "CPI_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-10-01",
+  "assets": [
+   "CPI_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2017-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2017-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-01-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-01-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-01-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-01-01",
+  "assets": [
+   "NFP"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-01-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-01-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-01-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-04-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-04-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-04-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-04-01",
+  "assets": [
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-04-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-04-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-04-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-07-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-07-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-07-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-07-01",
+  "assets": [
+   "PCE_CORE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-07-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-07-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-07-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-10-01-m1h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m1h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-10-01-m1h2_9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   2,
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h2_9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-10-01-m1h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-10-01",
+  "assets": [
+   "UNRATE"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m1h9"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-10-01-m4h2",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   2
+  ],
+  "target_type": "level",
+  "shape": "m4h2"
+ },
+ {
+  "unit_id": "pu-macro_m-2018-10-01-m4h9",
+  "panel": "/units/t2-F1-sahm-watch-2024/macro_monthly.parquet",
+  "asof": "2018-10-01",
+  "assets": [
+   "CPI_ALL",
+   "CPI_CORE",
+   "NFP",
+   "PCE_ALL"
+  ],
+  "horizons": [
+   9
+  ],
+  "target_type": "level",
+  "shape": "m4h9"
+ }
+]

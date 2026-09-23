@@ -1,0 +1,9 @@
+﻿.............s.                                                          [100%]
+=============================== warnings summary ===============================
+../usr/local/lib/python3.13/site-packages/_pytest/cacheprovider.py:469
+  /usr/local/lib/python3.13/site-packages/_pytest/cacheprovider.py:469: PytestCacheWarning: could not create cache path /input/checks/.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/input/checks/pytest-cache-files-de3rorpq'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+14 passed, 1 skipped, 1 warning in 1.63s
+[test.sh] All checks passed. reward=1.0
